@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72">
+  <defs>
+    <clipPath id="disc"><circle cx="36" cy="36" r="33"/></clipPath>
+    <linearGradient id="cyanDisc" x1="8" y1="4" x2="64" y2="68" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#52F0F0"/>
+      <stop offset=".52" stop-color="#13CDE0"/>
+      <stop offset="1" stop-color="#00AFC8"/>
+    </linearGradient>
+  </defs>
+  <circle cx="36" cy="36" r="33" fill="url(#cyanDisc)"/>
+  <circle cx="36" cy="36" r="32.2" fill="none" stroke="#B8FFFF" stroke-width="1.1" opacity=".85"/>
+  <g clip-path="url(#disc)">
+    <g fill="none" stroke="#087083" stroke-width=".75" opacity=".24">
+      <path d="M13 18H59M13 27H59M13 36H59M13 45H59M13 54H59"/>
+      <path d="M18 13V59M27 13V59M36 13V59M45 13V59M54 13V59"/>
+    </g>
+    <g fill="none" stroke="#064B5B" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" opacity=".92">
+      <path d="M14 24V14h10M48 14h10v10M58 48v10H48M24 58H14V48"/>
+    </g>
+    <path d="M14 47.5C20 47.5 21 23 29 23s8 24.5 15 24.5 8-15.5 14-15.5" fill="none" stroke="#E8FFFF" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M14 39C20 39 22 29 29 29s9 13 15 13 8-7 14-7" fill="none" stroke="#087083" stroke-width="2" stroke-linecap="round" opacity=".9"/>
+    <path d="M14 51C21 51 22 42 29 42s8-8 15-8 8 5 14 5" fill="none" stroke="#087083" stroke-width="1.5" stroke-linecap="round" opacity=".78"/>
+    <g fill="#064B5B" stroke="#DFFFFF" stroke-width="1.1">
+      <circle cx="14" cy="47.5" r="2.4"/>
+      <circle cx="29" cy="23" r="2.4"/>
+      <circle cx="44" cy="48" r="2.4"/>
+      <circle cx="58" cy="32" r="2.4"/>
+    </g>
+    <g fill="#064B5B">
+      <rect x="20" y="17" width="4.2" height="4.2" rx="1"/>
+      <rect x="47.8" y="17" width="4.2" height="4.2" rx="1"/>
+      <rect x="20" y="50.5" width="4.2" height="4.2" rx="1"/>
+      <path d="M47.8 50.5H52v4.2h-4.2v-2.1h2.1v-2.1z"/>
+    </g>
+  </g>
+</svg>
